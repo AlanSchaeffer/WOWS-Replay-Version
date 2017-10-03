@@ -1,0 +1,14 @@
+This Ruby script will extract the World of Warships client version from replay 
+files and place it at the end of the filename, just before the extension, 
+for example:
+20160805_230505_PRSD109-Pr-48-Kiev_22_tierra_del_fuego.wowsreplay
+becomes ->
+20160805_230505_PRSD109-Pr-48-Kiev_22_tierra_del_fuego 0.5.9.wowsreplay
+
+How to use:
+If you do not have Ruby on your computer install it from 
+https://www.ruby-lang.org
+
+Place the script add_versions.rb on the same folder as the replays you want
+to get labeled, and then double click the script. It will rename all the
+replays on the same folder.
